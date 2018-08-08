@@ -1,5 +1,10 @@
 GetInput();
 
+if(Attack){
+	image_index = 0; //reset animation
+	State = StateRANGEDATTACK;
+}
+
 if(XAxis != 0 || YAxis != 0)
 	Action = MOVE;
 else
@@ -26,4 +31,4 @@ var _length = Speed * (XAxis != 0 || YAxis != 0); //returns positiv or negative 
 XAxis = lengthdir_x(_length, _direction); //eliminates speed boost by going diagonal
 YAxis = lengthdir_y(_length, _direction);
 
-MoveCollide(XAxis, YAxis, obj_collider);
+MoveCollide(XAxis, YAxis, obj_collider, false);

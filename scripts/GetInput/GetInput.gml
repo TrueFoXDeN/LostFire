@@ -1,3 +1,5 @@
 /// Get User Input
-XAxis = keyboard_check(vk_right) - keyboard_check(vk_left);
-YAxis = keyboard_check(vk_down) - keyboard_check(vk_up);
+XAxis = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+YAxis = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
+Attack = keyboard_check_pressed(vk_space);

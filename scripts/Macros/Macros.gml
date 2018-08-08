@@ -6,7 +6,6 @@
 //Action
 #macro IDLE 0
 #macro MOVE 1
-
 #macro RANGEDATTACK 2
-
-#macro CELL 32 
+//Misc
+#macro CELL 16 //offset 

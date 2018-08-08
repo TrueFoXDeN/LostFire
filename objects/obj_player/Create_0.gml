@@ -3,7 +3,13 @@
 XAxis = 0; //Left, Right movement
 YAxis = 0; //Up, Down movement
 Speed = 3; //Movementspeed
+//
+CanAttack = true;
+XOffset = 0;
+YOffset = 0;
+//
 State = StateIDLE;
+ObjectType = CollisionType.Player;
 
 Direction = DOWN;
 Action = IDLE;
@@ -16,4 +22,9 @@ View[DOWN, IDLE] = s_playerDown;
 View[RIGHT, MOVE] = s_playerRight;
 View[UP, MOVE] = s_playerUp;
 View[LEFT, MOVE] = s_playerLeft;
-View[DOWN, MOVE] = s_playerDown;
+View[DOWN, MOVE] = s_playerDownWalking;
+
+View[RIGHT, RANGEDATTACK] = s_playerRight;
+View[UP, RANGEDATTACK] = s_playerUp;
+View[LEFT, RANGEDATTACK] = s_playerLeft;
+View[DOWN, RANGEDATTACK] = s_playerDown;
