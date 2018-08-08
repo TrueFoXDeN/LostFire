@@ -1,11 +1,13 @@
 GetInput();
 
 if(Attack){
+	alarm[0] = room_speed * 0.2;
 	image_index = 0; //reset animation
 	State = StateRANGEDATTACK;
 }
 
 if(AttackMelee){
+	alarm[0] = room_speed * 0.2;
 	image_index = 0;
 	State = StateMELEEATTACK;
 }
