@@ -5,22 +5,22 @@ sprite_index = View[Direction, Action];
 
 switch(Direction){
 	case LEFT:
-		XOffset = -CELL;
+		XOffset = -CELL/2;
 		YOffset = 0;
 	break;
 	
 	case RIGHT:
-		XOffset = CELL;
+		XOffset = CELL/2;
 		YOffset = 0;
 	break;
 	
 	case UP:
 		XOffset = 0;
-		YOffset = -CELL;
+		YOffset = -CELL - 4;
 	break;
 	
 	case DOWN:
 		XOffset = 0;
-		YOffset = CELL;
+		YOffset = CELL + 4;
 	break;
 }

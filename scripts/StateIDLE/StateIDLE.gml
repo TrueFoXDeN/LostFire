@@ -5,6 +5,11 @@ if(Attack){
 	State = StateRANGEDATTACK;
 }
 
+if(AttackMelee){
+	image_index = 0;
+	State = StateMELEEATTACK;
+}
+
 if(XAxis != 0 || YAxis != 0)
 	Action = MOVE;
 else

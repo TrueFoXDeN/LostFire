@@ -6,6 +6,11 @@ switch(Action){
 		State = StateIDLE;
 		CanAttack = true;
 		break;
+	case MELEEATTACK:
+		instance_destroy(par_projectile);
+		State = StateIDLE;
+		CanAttack = true;
+		break;
 	default: show_error("Error in Player Animaiton State Mchine.",false);
 	break;
 }

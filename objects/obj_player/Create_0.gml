@@ -28,3 +28,8 @@ View[RIGHT, RANGEDATTACK] = s_playerRight;
 View[UP, RANGEDATTACK] = s_playerUp;
 View[LEFT, RANGEDATTACK] = s_playerLeft;
 View[DOWN, RANGEDATTACK] = s_playerDown;
+
+View[RIGHT, MELEEATTACK] = s_playerRight;
+View[UP, MELEEATTACK] = s_playerUp;
+View[LEFT, MELEEATTACK] = s_playerLeft;
+View[DOWN, MELEEATTACK] = s_playerDown;
