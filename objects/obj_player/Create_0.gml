@@ -20,7 +20,7 @@ View[LEFT, IDLE] = s_playerLeft;
 View[DOWN, IDLE] = s_playerDown;
 
 View[RIGHT, MOVE] = s_playerRight;
-View[UP, MOVE] = s_playerUp;
+View[UP, MOVE] = s_playerUpWalking;
 View[LEFT, MOVE] = s_playerLeft;
 View[DOWN, MOVE] = s_playerDownWalking;
 
