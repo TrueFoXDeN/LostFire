@@ -4,7 +4,56 @@
     "mvc": "1.11",
     "name": "ts_base",
     "auto_tile_sets": [
-        
+        {
+            "id": "8bceb714-54a6-40e4-ad68-421be754521f",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "Wasser\/Gras",
+            "tiles": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+            ]
+        },
+        {
+            "id": "ab28ff5a-55d9-459d-81f1-90245a981509",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "Sand\/Gras",
+            "tiles": [
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71
+            ]
+        }
     ],
     "macroPageTiles": {
         "SerialiseData": null,
