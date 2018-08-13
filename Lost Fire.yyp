@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1bf71ea2-e4e6-45ec-aaec-324a72d80975",
+            "Value": {
+                "id": "cd865006-12f0-471b-a4b8-e61381825e62",
+                "resourcePath": "objects\\obj_shadow\\obj_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22b11920-f7a9-435e-8847-2b0a90900853",
             "Value": {
                 "id": "f39c8a2c-8d58-4c3b-9bf3-9e124019209d",
