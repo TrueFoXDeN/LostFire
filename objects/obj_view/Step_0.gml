@@ -1,3 +1,3 @@
 /// @description Camera Movement
- x += (obj_player.x - x)  *.1;
- y += (obj_player.y - y)  *.1;
+ x += (obj_player.x - x)  *.2;
+ y += (obj_player.y - y)  *.2;
