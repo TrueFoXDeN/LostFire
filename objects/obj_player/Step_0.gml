@@ -1,5 +1,5 @@
-/// @description Movement
+/// @description
+depth = -y;
 script_execute(state);
 
-//scr_get_input();
-//scr_move_state();
+if(obj_player_stats.hp <= 0) instance_destroy();

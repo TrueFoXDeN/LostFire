@@ -1,4 +1,8 @@
 /// @description Camera Movement
+if(!instance_exists(obj_player)){
+	follow = noone;	
+}
+
 x += (xTo - x) / 10;
 y += (yTo - y) / 10;
 
